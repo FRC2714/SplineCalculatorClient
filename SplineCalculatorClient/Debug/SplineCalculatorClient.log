@@ -1,0 +1,16 @@
+﻿  easywsclient.cpp
+c:\users\qjohh\documents\visual studio 2017\projects\splinecalculatorclient\splinecalculatorclient\easywsclient.cpp(95): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'WCHAR *'
+  c:\users\qjohh\documents\visual studio 2017\projects\splinecalculatorclient\splinecalculatorclient\easywsclient.cpp(95): note: consider using '%ls' in the format string
+  c:\users\qjohh\documents\visual studio 2017\projects\splinecalculatorclient\splinecalculatorclient\easywsclient.cpp(95): note: consider using '%lls' in the format string
+  c:\users\qjohh\documents\visual studio 2017\projects\splinecalculatorclient\splinecalculatorclient\easywsclient.cpp(95): note: consider using '%Ls' in the format string
+  c:\users\qjohh\documents\visual studio 2017\projects\splinecalculatorclient\splinecalculatorclient\easywsclient.cpp(95): note: consider using '%ws' in the format string
+c:\users\qjohh\documents\visual studio 2017\projects\splinecalculatorclient\splinecalculatorclient\easywsclient.cpp(413): warning C4244: 'initializing': conversion from 'uint64_t' to 'size_t', possible loss of data
+  c:\users\qjohh\documents\visual studio 2017\projects\splinecalculatorclient\splinecalculatorclient\easywsclient.cpp(332): note: see reference to function template instantiation 'void `anonymous-namespace'::_RealWebSocket::sendData<std::_String_iterator<std::_String_val<std::_Simple_types<_Ty>>>>(`anonymous-namespace'::_RealWebSocket::wsheader_type::opcode_type,uint64_t,Iterator,Iterator)' being compiled
+          with
+          [
+              _Ty=char,
+              Iterator=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>
+          ]
+  SplineCalculatorClient.cpp
+  Generating Code...
+  SplineCalculatorClient.vcxproj -> C:\Users\qjohh\Documents\Visual Studio 2017\Projects\SplineCalculatorClient\Debug\SplineCalculatorClient.exe
